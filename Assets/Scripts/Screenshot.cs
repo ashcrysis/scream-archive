@@ -16,7 +16,7 @@ public class Screenshot : MonoBehaviour
     {
         if (_attackAction.WasPressedThisFrame())
         {
-            ScreenCapture.CaptureScreenshot("screenshot-" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png", 4);
+            ScreenCapture.CaptureScreenshot("Screenshots/screenshot-" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png", 4);
         }
     }
 }
